@@ -5,8 +5,13 @@ import * as React from 'react'
 const IndexPage = () => {
   return (
     <main>
-      <h1>Welcome to my Gatsby site!</h1>
+      <h1>Welcome to my Gatsby site! para mi CV en tech</h1>
       <p>I'm making this by following the Gatsby Tutorial.</p>
+      <a href='https://www.gatsbyjs.com/'> Gatsby site</a>
+      
+
+      <a href='https://pages.github.com/'> github page site</a>
+
     </main>
   )
 }
