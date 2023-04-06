@@ -13,7 +13,7 @@ const IndexPage = () => {
       <p>I'm making this by following the Gatsby Tutorial.</p>
       <StaticImage
         alt="Hongos"
-        src="../images/Hongos.png"
+        src="../images/hongos.png"
       />
     </Layout>
 
