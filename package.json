@@ -1,0 +1,28 @@
+{
+  "name": "cv-alejandro-arango",
+  "version": "1.0.0",
+  "private": true,
+  "description": "cv-alejandro-arango",
+  "author": "Alejandro Arango",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
+    "gatsby": "^5.12.4",
+    "gatsby-plugin-image": "^3.12.0",
+    "gatsby-plugin-sharp": "^5.12.0",
+    "gatsby-source-filesystem": "^5.12.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.11.0"
+  }
+}

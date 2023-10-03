@@ -1,0 +1,56 @@
+.iconWrapper {
+  margin: 0 1rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  &:hover .tooltip {
+    display: block;
+  }
+
+  &.tech {
+    margin-bottom: 40px;
+  }
+}
+
+.tooltip {
+  display: none;
+  color: #5d5d5d;
+  white-space: nowrap;
+  position: absolute;
+  left: 50%;
+  bottom: -30px;
+  transform: translateX(-50%);
+}
+
+.icon {
+  position: relative;
+  top: 0;
+  font-size: 3.75rem;
+  transition: top 0.5s;
+  color: $main-med;
+  overflow: hidden;
+  &:hover {
+    color: $main-orange;
+  }
+  &.animated:hover {
+    top: -10px;
+  }
+  &.tech {
+    font-size: 3rem;
+  }
+}
+
+.techTitle {
+  text-align: center;
+  color: #717f79;
+  font-weight: 400;
+}
+
+.techGrid {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 750px;
+  margin: auto;
+}
